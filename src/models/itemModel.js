@@ -20,13 +20,13 @@ const itemSchema = mongoose.Schema(
             type: String,
         },
         content: {
-            type: String, // For NOTES
+            type: String, 
         },
         url: {
-            type: String, // For LINKS and VIDEOS
+            type: String, 
         },
         fileUrl: {
-            type: String, // For DOCUMENTS and IMAGES
+            type: String, 
         },
         thumbnail: {
             type: String,
